@@ -15,10 +15,8 @@ function mapa() {
 		L.marker([37.222981, -3.688257]).bindPopup('Bar Peña').addTo(bares),
 		L.marker([37.223469, -3.683350]).bindPopup('Bar Leones Atarfe').addTo(bares),
 		L.marker([37.223598, -3.684000]).bindPopup('Bar El Caribe <p><b>Tapa estrella:</b> Patata asada casera + tubo de cerveza<p><b>Precio:</b> 1.80€</p></p>').addTo(bares),
-		L.marker([37.217277, -3.691403]).bindPopup('Bar La Estela').addTo(bares);
-		L.marker([37.224070, -3.681240]).bindPopup('Bar Parada 122').addTo(autobuses);
-
-
+		L.marker([37.217277, -3.691403]).bindPopup('Bar La Estela <p><b>Tapa estrella:</b> Pinchito + Tubo de cerveza<p><b>Precio:</b> 2€</p></p>').addTo(bares),
+		L.marker([37.224070, -3.681240]).bindPopup('Parada Autobus 112').addTo(autobus);
 		var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
